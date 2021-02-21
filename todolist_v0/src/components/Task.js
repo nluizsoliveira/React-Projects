@@ -14,6 +14,10 @@ class Task extends React.Component{
       return this.state.toggle? "TaskContent Toggle": "TaskContent"
     }
     
+    removeTaskHandler(){
+      this.props.removeTask(this.props.id)
+    }
+
     render(){
         return(
           <div id={this.props.id} className='Task'>
@@ -22,7 +26,7 @@ class Task extends React.Component{
             </div>
             <div className={this.getContentStyle()}>{this.props.content}</div>
             <div>
-              <div className='ClickableIcon' onClick={(e)=>{console.log(this.props.id)}}>X</div>
+              <div className='ClickableIcon' onClick={()=>this.removeTaskHandler()}>X</div>
               <div className='ClickableIcon'>✎</div>
             </div>
           </div>

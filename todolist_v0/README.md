@@ -1,11 +1,12 @@
-# Todo List V0
-This project implements a Responsive Todo List using Class Components, Styling via CSS and random keys (`Math.Random`). No external libraries except React were used. 
+# Todo List V0 
+This project implements a Responsive Todo List using Class Components, Styling via CSS and random keys (`Math.Random`). No external libraries except React were used.
 
 ## Features Status:
+![Progress](https://progress-bar.dev/40/)
 - [x] Responsive Design using flexbox
 - [x] Add task `+`
 - [x] Complete task `☐`
-- [ ] Delete Task `X`
+- [x] Delete Task `X`
 - [ ] Edit Task `✎`
 - [ ] Done Tasks Counter
 - [ ] Split Completed and todo Tasks apart

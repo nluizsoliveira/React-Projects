@@ -10,8 +10,13 @@ class App extends React.Component{
   }
 
   addTask(newTask){
-    console.log(newTask)
     this.setState({tasks: [...this.state.tasks, newTask]})
+  }
+
+  removeTask(id){
+    let newTasks = this.state.tasks.filter(task => task.id !== id)
+
+    this.setState({tasks: newTasks})
   }
 
   render(){
@@ -19,7 +24,7 @@ class App extends React.Component{
       <div className='App'>
         <h1>Todo List</h1>
         <TaskInputContainer addTask = {(newTask)=>{this.addTask(newTask)}}/>
-        <TaskList tasks={this.state.tasks}/>
+        <TaskList tasks={this.state.tasks} removeTask = {(id)=>{this.removeTask(id)}}/>
       </div>
   )}
 }
