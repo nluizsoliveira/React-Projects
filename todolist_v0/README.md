@@ -14,7 +14,11 @@ This project implements a Responsive Todo List using Class Components, Styling v
 - [ ] Save tasks on localstorage
 
 ## How to run
-```
+Node and Yarn are project dependencies. 
+
+```bash 
+cd todolist_v0/
+yarn install
 yarn start
 ```
 
