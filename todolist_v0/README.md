@@ -1,4 +1,6 @@
 # Todo List V0 
+[Try it live!](https://nluizsoliveira-todolist0.netlify.app/) - https://nluizsoliveira-todolist0.netlify.app/
+
 This project implements a Responsive Todo List using Class Components, Styling via CSS and random keys (`Math.Random`). No external libraries except React were used.
 
 ## Features Status:
