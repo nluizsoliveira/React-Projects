@@ -1,0 +1,11 @@
+{
+  "name": "React-Projects",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/nluizsoliveira/React-Projects.git",
+  "author": "nluizsoliveira <nluizsoliveira@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "create-react-app": "^4.0.2"
+  }
+}
